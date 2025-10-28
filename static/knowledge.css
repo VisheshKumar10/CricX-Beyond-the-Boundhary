@@ -1,0 +1,208 @@
+/* ===== KNOWLEDGE PAGE STYLING (CricX) ===== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+/* Hero Section */
+.page-hero {
+  background: linear-gradient(to right, #111, #1a1a1a);
+  padding: 60px 0;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+.page-hero h1 {
+  font-size: 2.5rem;
+  color: gold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px gold;
+}
+
+.page-hero p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* Card Container */
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.predict-container {
+  width: 90%;
+  max-width: 1200px;
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+/* Cards */
+.predict-card {
+  background: rgba(20, 20, 20, 0.95);
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  backdrop-filter: blur(10px);
+}
+
+.predict-card:hover {
+  transform: translateY(-8px);
+  transform: scale(110%);
+  margin-bottom: 10%;
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.25);
+}
+
+/* Card Text */
+.predict-card h2 {
+  color: gold;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  padding-bottom: 5px;
+}
+
+.predict-card p {
+  color: #ddd;
+  line-height: 1.6rem;
+  font-size: 0.95rem;
+  text-align: center;
+  
+}
+
+/* List Styling */
+.predict-card ul {
+  margin-left: 20px;
+  color: #eee;
+  list-style-type: disc;
+}
+
+.predict-card li {
+  margin-bottom: 6px;
+  line-height: 1.5rem;
+}
+
+.predict-card li::marker {
+  color: gold;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid gold;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 2rem;
+  }
+  .predict-container {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .predict-card {
+    padding: 20px;
+  }
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid goldenrod;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar .logo img {
+  height: 60px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: gold;
+  text-shadow: 0 0 8px gold;
+}
+.translate-box {
+  margin-left: 20px;
+  background-color: #111;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px;
+  width: 10%;
+}
+
+.goog-te-gadget {
+  font-family: 'Poppins', sans-serif !important;
+  color: white!important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  background-color: #111 !important;
+  color:  white!important;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  outline: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+} 
+body {
+  top: 0px !important;
+}
+/* 🌐 Hide Google Translate top bar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Prevent white gap on top after hiding toolbar */
+body {
+  top: 0px !important;
+}
+
+/* Hide the Google Translate popup icon in the bottom corner */
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+/* Optional: Hide "Powered by Google Translate" small footer text */
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget span {
+  display: none !important;
+}

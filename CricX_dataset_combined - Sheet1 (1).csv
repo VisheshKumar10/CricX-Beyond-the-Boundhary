@@ -1,0 +1,132 @@
+Date,date,team1,team2,venue,home_advantage,h2h_t1_wins,h2h_t2_wins,WTC_cycle,team1_recent_win_pct,team2_recent_win_pct,team1_top5_bat_avg,team2_top5_bat_avg,team1_top5_bowl_avg,team2_top5_bowl_avg,weather,pitch_type,raw_result,Result
+01/08/2019,"Aug 1-5, 2019",England,Australia,Birmingham,1,108,146,2019-2021,0.5,0.6,39.5,43.2,32.1,28.4,Cloudy,Pace-friendly,Australia,Team2
+14/08/2019,"Aug 14-18, 2019",England,Australia,Lord's,1,108,146,2019-2021,0.5,0.6,39.5,43.2,32.1,28.4,Cloudy,Pace-friendly,drawn,Draw
+14/08/2019,"Aug 14-18, 2019",Sri Lanka,New Zealand,Galle,1,9,15,2019-2021,0.3,0.7,34.5,44.6,36.1,27.8,Rain,Spin-friendly,Sri Lanka,Team1
+22/08/2019,"Aug 22-25, 2019",West Indies,India,North Sound,1,30,21,2019-2021,0.4,0.8,35.7,45.4,34,26.5,Rain,Pace-friendly,India,Team2
+22/08/2019,"Aug 22-25, 2019",England,Australia,Leeds,1,109,146,2019-2021,0.5,0.6,39.5,43.2,32.1,28.4,Cloudy,Pace-friendly,England,Team1
+22/08/2019,"Aug 22-26, 2019",Sri Lanka,New Zealand,Colombo (PSS),1,8,16,2019-2021,0.3,0.7,34.5,44.6,36.1,27.8,Cloudy,Spin-friendly,New Zealand,Team2
+30/08/2019,"Aug 30-Sep 2, 2019",West Indies,India,Kingston,1,30,22,2019-2021,0.4,0.8,35.7,45.4,34,26.5,Rain,Pace-friendly,India,Team2
+04/09/2019,"Sep 4-8, 2019",England,Australia,Manchester,1,109,147,2019-2021,0.5,0.6,39.5,43.2,32.1,28.4,Cloudy,Pace-friendly,Australia,Team2
+12/09/2019,"Sep 12-15, 2019",England,Australia,The Oval,1,110,147,2019-2021,0.5,0.6,39.5,43.2,32.1,28.4,Cloudy,Pace-friendly,England,Team1
+02/10/2019,"Oct 2-6, 2019",India,South Africa,Visakhapatnam,1,12,15,2019-2021,0.8,0.3,45.4,34.8,26.5,35.5,Sunny,Spin-friendly,India,Team1
+10/10/2019,"Oct 10-13, 2019",India,South Africa,Pune,1,13,15,2019-2021,0.8,0.3,45.4,34.8,26.5,35.5,Sunny,Spin-friendly,India,Team1
+19/10/2019,"Oct 19-22, 2019",India,South Africa,Ranchi,1,14,15,2019-2021,0.8,0.3,45.4,34.8,26.5,35.5,Sunny,Spin-friendly,India,Team1
+14/11/2019,"Nov 14-16, 2019",India,Bangladesh,Indore,1,8,0,2019-2021,0.8,0.2,45.4,33.2,26.5,37.4,Sunny,Balanced,India,Team1
+21/11/2019,"Nov 21-24, 2019",Australia,Pakistan,Brisbane,1,32,15,2019-2021,0.6,0.4,43.2,36.2,28.4,34.7,Sunny,Balanced,Australia,Team1
+22/11/2019,"Nov 22-24, 2019",India,Bangladesh,Eden Gardens,1,9,0,2019-2021,0.8,0.2,45.4,33.2,26.5,37.4,Sunny,Spin-friendly,India,Team1
+29/11/2019,"Nov 29-Dec 2, 2019",Australia,Pakistan,Adelaide,1,33,15,2019-2021,0.6,0.4,43.2,36.2,28.4,34.7,Sunny,Balanced,Australia,Team1
+11/12/2019,"Dec 11-15, 2019",Pakistan,Sri Lanka,Rawalpindi,1,19,16,2019-2021,0.4,0.3,36.2,34.5,34.7,36.1,Sunny,Balanced,drawn,Draw
+12/12/2019,"Dec 12-15, 2019",Australia,New Zealand,Perth,1,32,8,2019-2021,0.6,0.7,43.2,44.6,28.4,27.8,Sunny,Balanced,Australia,Team1
+19/12/2019,"Dec 19-23, 2019",Pakistan,Sri Lanka,Karachi,1,20,16,2019-2021,0.4,0.3,36.2,34.5,34.7,36.1,Sunny,Balanced,Pakistan,Team1
+26/12/2019,"Dec 26-29, 2019",South Africa,England,Centurion,1,34,61,2019-2021,0.3,0.5,34.8,39.5,35.5,32.1,Cloudy,Pace-friendly,South Africa,Team1
+26/12/2019,"Dec 26-29, 2019",Australia,New Zealand,Melbourne,1,33,8,2019-2021,0.6,0.7,43.2,44.6,28.4,27.8,Sunny,Balanced,Australia,Team1
+03/01/2020,"Jan 3-7, 2020",South Africa,England,Cape Town,1,34,62,2019-2021,0.3,0.5,34.8,39.5,35.5,32.1,Sunny,Balanced,England,Team2
+03/01/2020,"Jan 3-6, 2020",Australia,New Zealand,Sydney,1,34,8,2019-2021,0.6,0.7,43.2,44.6,28.4,27.8,Sunny,Balanced,Australia,Team1
+16/01/2020,"Jan 16-20, 2020",South Africa,England,Gqeberha,1,34,63,2019-2021,0.3,0.5,34.8,39.5,35.5,32.1,Cloudy,Pace-friendly,England,Team2
+24/01/2020,"Jan 24-27, 2020",South Africa,England,Johannesburg,1,34,64,2019-2021,0.3,0.5,34.8,39.5,35.5,32.1,Sunny,Balanced,England,Team2
+07/02/2020,"Feb 7-10, 2020",Pakistan,Bangladesh,Rawalpindi,1,10,0,2019-2021,0.4,0.2,36.2,33.2,34.7,37.4,Sunny,Balanced,Pakistan,Team1
+21/02/2020,"Feb 21-24, 2020",New Zealand,India,Wellington,1,11,21,2019-2021,0.7,0.8,44.6,45.4,27.8,26.5,Cloudy,Pace-friendly,New Zealand,Team1
+29/02/2020,"Feb 29-Mar 2, 2020",New Zealand,India,Christchurch,1,12,21,2019-2021,0.7,0.8,44.6,45.4,27.8,26.5,Cloudy,Pace-friendly,New Zealand,Team1
+08/07/2020,"Jul 8-12, 2020",England,West Indies,Southampton,1,58,49,2019-2021,0.5,0.4,39.5,35.7,32.1,34,Cloudy,Pace-friendly,West Indies,Team2
+16/07/2020,"Jul 16-20, 2020",England,West Indies,Manchester,1,58,50,2019-2021,0.5,0.4,39.5,35.7,32.1,34,Cloudy,Pace-friendly,England,Team1
+24/07/2020,"Jul 24-28, 2020",England,West Indies,Manchester,1,58,51,2019-2021,0.5,0.4,39.5,35.7,32.1,34,Cloudy,Pace-friendly,England,Team1
+05/08/2020,"Aug 5-8, 2020",England,Pakistan,Manchester,1,62,33,2019-2021,0.5,0.4,39.5,36.2,32.1,34.7,Cloudy,Pace-friendly,England,Team1
+13/08/2020,"Aug 13-17, 2020",England,Pakistan,Southampton,1,62,33,2019-2021,0.5,0.4,39.5,36.2,32.1,34.7,Cloudy,Pace-friendly,drawn,Draw
+21/08/2020,"Aug 21-25, 2020",England,Pakistan,Southampton,1,62,33,2019-2021,0.5,0.4,39.5,36.2,32.1,34.7,Cloudy,Pace-friendly,drawn,Draw
+03/12/2020,"Dec 3-6, 2020",New Zealand,West Indies,Hamilton,1,16,13,2019-2021,0.7,0.4,44.6,35.7,27.8,34,Sunny,Pace-friendly,New Zealand,Team1
+11/12/2020,"Dec 11-14, 2020",New Zealand,West Indies,Wellington,1,17,13,2019-2021,0.7,0.4,44.6,35.7,27.8,34,Cloudy,Pace-friendly,New Zealand,Team1
+17/12/2020,"Dec 17-19, 2020",Australia,India,Adelaide,1,49,33,2019-2021,0.6,0.8,43.2,45.4,28.4,26.5,Sunny,Balanced,Australia,Team1
+26/12/2020,"Dec 26-29, 2020",South Africa,Sri Lanka,Centurion,1,15,9,2019-2021,0.3,0.3,34.8,34.5,35.5,36.1,Cloudy,Pace-friendly,South Africa,Team1
+26/12/2020,"Dec 26-29, 2020",Australia,India,Melbourne,1,49,34,2019-2021,0.6,0.8,43.2,45.4,28.4,26.5,Sunny,Balanced,India,Team2
+26/12/2020,"Dec 26-30, 2020",New Zealand,Pakistan,Mount Maunganui,1,13,25,2019-2021,0.7,0.4,44.6,36.2,27.8,34.7,Cloudy,Pace-friendly,New Zealand,Team1
+03/01/2021,"Jan 3-5, 2021",South Africa,Sri Lanka,Johannesburg,1,16,9,2019-2021,0.3,0.3,34.8,34.5,35.5,36.1,Sunny,Balanced,South Africa,Team1
+03/01/2021,"Jan 3-6, 2021",New Zealand,Pakistan,Christchurch,1,14,25,2019-2021,0.7,0.4,44.6,36.2,27.8,34.7,Cloudy,Pace-friendly,New Zealand,Team1
+07/01/2021,"Jan 7-11, 2021",Australia,India,Sydney,1,49,34,2019-2021,0.6,0.8,43.2,45.4,28.4,26.5,Sunny,Balanced,drawn,Draw
+14/01/2021,"Jan 14-18, 2021",Sri Lanka,England,Galle,1,8,16,2019-2021,0.3,0.5,34.5,39.5,36.1,32.1,Rain,Spin-friendly,England,Team2
+15/01/2021,"Jan 15-19, 2021",Australia,India,Brisbane,1,49,35,2019-2021,0.6,0.8,43.2,45.4,28.4,26.5,Sunny,Balanced,India,Team2
+22/01/2021,"Jan 22-25, 2021",Sri Lanka,England,Galle,1,8,17,2019-2021,0.3,0.5,34.5,39.5,36.1,32.1,Rain,Spin-friendly,England,Team2
+26/01/2021,"Jan 26-29, 2021",Pakistan,South Africa,Karachi,1,5,16,2019-2021,0.4,0.3,36.2,34.8,34.7,35.5,Sunny,Balanced,Pakistan,Team1
+03/02/2021,"Feb 3-7, 2021",Bangladesh,West Indies,Chattogram,1,4,11,2019-2021,0.2,0.4,33.2,35.7,37.4,34,Rain,Spin-friendly,West Indies,Team2
+04/02/2021,"Feb 4-8, 2021",Pakistan,South Africa,Rawalpindi,1,6,16,2019-2021,0.4,0.3,36.2,34.8,34.7,35.5,Sunny,Balanced,Pakistan,Team1
+05/02/2021,"Feb 5-9, 2021",India,England,Chennai,1,26,48,2019-2021,0.8,0.5,45.4,39.5,26.5,32.1,Sunny,Spin-friendly,England,Team2
+11/02/2021,"Feb 11-14, 2021",Bangladesh,West Indies,Mirpur,1,4,12,2019-2021,0.2,0.4,33.2,35.7,37.4,34,Sunny,Balanced,West Indies,Team2
+13/02/2021,"Feb 13-16, 2021",India,England,Chennai,1,27,48,2019-2021,0.8,0.5,45.4,39.5,26.5,32.1,Sunny,Spin-friendly,India,Team1
+24/02/2021,"Feb 24-25, 2021",India,England,Ahmedabad,1,28,48,2019-2021,0.8,0.5,45.4,39.5,26.5,32.1,Sunny,Spin-friendly,India,Team1
+04/03/2021,"Mar 4-6, 2021",India,England,Ahmedabad,1,29,48,2019-2021,0.8,0.5,45.4,39.5,26.5,32.1,Sunny,Spin-friendly,India,Team1
+21/03/2021,"Mar 21-25, 2021",West Indies,Sri Lanka,North Sound,1,4,9,2019-2021,0.4,0.3,35.7,34.5,34,36.1,Rain,Pace-friendly,drawn,Draw
+29/03/2021,"Mar 29-Apr 2, 2021",West Indies,Sri Lanka,North Sound,1,4,9,2019-2021,0.4,0.3,35.7,34.5,34,36.1,Rain,Pace-friendly,drawn,Draw
+21/04/2021,"Apr 21-25, 2021",Sri Lanka,Bangladesh,Pallekele,1,16,1,2019-2021,0.3,0.2,34.5,33.2,36.1,37.4,Cloudy,Balanced,drawn,Draw
+29/04/2021,"Apr 29-May 3, 2021",Sri Lanka,Bangladesh,Pallekele,1,17,1,2019-2021,0.3,0.2,34.5,33.2,36.1,37.4,Cloudy,Balanced,Sri Lanka,Team1
+10/06/2021,"Jun 10-12, 2021",West Indies,South Africa,Gros Islet,1,15,9,2019-2021,0.4,0.3,35.7,34.8,34,35.5,Sunny,Balanced,South Africa,Team2
+18/06/2021,"Jun 18-21, 2021",West Indies,South Africa,Gros Islet,1,15,9,2019-2021,0.4,0.3,35.7,34.8,34,35.5,Sunny,Balanced,South Africa,Team2
+18/06/2021,"Jun 18-23, 2021",India,New Zealand,Southampton,0,13,21,2019-2021,0.8,0.7,45.4,44.6,26.5,27.8,Cloudy,Pace-friendly,New Zealand,Team2
+04/08/2021,"Aug 4-8, 2021",England,India,Nottingham,1,29,48,2021-2023,0.52,0.64,41.2,45.8,31.4,28.6,Rain,Pace-friendly,drawn,Draw
+12/08/2021,"Aug 12-15, 2021",West Indies,Pakistan,Kingston,1,18,20,2021-2023,0.34,0.42,34.5,39.1,34.8,32.5,Rain,Pace-friendly,West Indies,Team1
+12/08/2021,"Aug 12-16, 2021",England,India,Lord's,1,30,48,2021-2023,0.52,0.64,41.2,45.8,31.4,28.6,Cloudy,Pace-friendly,India,Team2
+20/08/2021,"Aug 20-24, 2021",West Indies,Pakistan,Kingston,1,18,21,2021-2023,0.34,0.42,34.5,39.1,34.8,32.5,Rain,Pace-friendly,Pakistan,Team2
+25/08/2021,"Aug 25-28, 2021",England,India,Leeds,1,30,49,2021-2023,0.52,0.64,41.2,45.8,31.4,28.6,Cloudy,Pace-friendly,England,Team1
+02/09/2021,"Sep 2-6, 2021",England,India,The Oval,1,31,49,2021-2023,0.52,0.64,41.2,45.8,31.4,28.6,Cloudy,Pace-friendly,India,Team2
+21/11/2021,"Nov 21-25, 2021",Sri Lanka,West Indies,Galle,1,10,4,2021-2023,0.38,0.34,36.8,34.5,33,34.8,Rain,Spin-friendly,Sri Lanka,Team1
+25/11/2021,"Nov 25-29, 2021",India,New Zealand,Kanpur,1,14,21,2021-2023,0.64,0.4,45.8,42.3,28.6,30.7,Sunny,Balanced,drawn,Draw
+26/11/2021,"Nov 26-30, 2021",Bangladesh,Pakistan,Chattogram,1,1,18,2021-2023,0.22,0.42,31.6,39.1,37.9,32.5,Rain,Spin-friendly,Pakistan,Team2
+29/11/2021,"Nov 29-Dec 3, 2021",Sri Lanka,West Indies,Galle,1,11,4,2021-2023,0.38,0.34,36.8,34.5,33,34.8,Rain,Spin-friendly,Sri Lanka,Team1
+03/12/2021,"Dec 3-6, 2021",India,New Zealand,Wankhede,1,15,21,2021-2023,0.64,0.4,45.8,42.3,28.6,30.7,Sunny,Balanced,India,Team1
+04/12/2021,"Dec 4-8, 2021",Bangladesh,Pakistan,Mirpur,1,1,19,2021-2023,0.22,0.42,31.6,39.1,37.9,32.5,Sunny,Balanced,Pakistan,Team2
+08/12/2021,"Dec 8-11, 2021",Australia,England,Brisbane,1,148,110,2021-2023,0.72,0.52,48.5,41.2,27.3,31.4,Sunny,Balanced,Australia,Team1
+16/12/2021,"Dec 16-20, 2021",Australia,England,Adelaide,1,149,110,2021-2023,0.72,0.52,48.5,41.2,27.3,31.4,Sunny,Balanced,Australia,Team1
+26/12/2021,"Dec 26-30, 2021",South Africa,India,Centurion,1,15,15,2021-2023,0.5,0.64,37.4,45.8,29.9,28.6,Cloudy,Pace-friendly,India,Team2
+26/12/2021,"Dec 26-28, 2021",Australia,England,Melbourne,1,150,110,2021-2023,0.72,0.52,48.5,41.2,27.3,31.4,Sunny,Balanced,Australia,Team1
+01/01/2022,"Jan 1-5, 2022",New Zealand,Bangladesh,Mount Maunganui,1,12,1,2021-2023,0.4,0.22,42.3,31.6,30.7,37.9,Cloudy,Pace-friendly,Bangladesh,Team2
+03/01/2022,"Jan 3-6, 2022",South Africa,India,Johannesburg,1,16,15,2021-2023,0.5,0.64,37.4,45.8,29.9,28.6,Sunny,Balanced,South Africa,Team1
+05/01/2022,"Jan 5-9, 2022",Australia,England,Sydney,1,150,110,2021-2023,0.72,0.52,48.5,41.2,27.3,31.4,Sunny,Balanced,drawn,Draw
+09/01/2022,"Jan 9-11, 2022",New Zealand,Bangladesh,Christchurch,1,13,1,2021-2023,0.4,0.22,42.3,31.6,30.7,37.9,Cloudy,Pace-friendly,New Zealand,Team1
+11/01/2022,"Jan 11-14, 2022",South Africa,India,Cape Town,1,17,15,2021-2023,0.5,0.64,37.4,45.8,29.9,28.6,Sunny,Balanced,South Africa,Team1
+14/01/2022,"Jan 14-16, 2022",Australia,England,Hobart,1,151,110,2021-2023,0.72,0.52,48.5,41.2,27.3,31.4,Cloudy,Pace-friendly,Australia,Team1
+17/02/2022,"Feb 17-19, 2022",New Zealand,South Africa,Christchurch,1,5,25,2021-2023,0.4,0.5,42.3,37.4,30.7,29.9,Cloudy,Pace-friendly,New Zealand,Team1
+25/02/2022,"Feb 25-Mar 1, 2022",New Zealand,South Africa,Christchurch,1,5,26,2021-2023,0.4,0.5,42.3,37.4,30.7,29.9,Cloudy,Pace-friendly,South Africa,Team2
+04/03/2022,"Mar 4-8, 2022",Pakistan,Australia,Rawalpindi,1,15,33,2021-2023,0.42,0.72,39.1,48.5,32.5,27.3,Sunny,Balanced,drawn,Draw
+04/03/2022,"Mar 4-6, 2022",India,Sri Lanka,Mohali,1,21,7,2021-2023,0.64,0.38,45.8,36.8,28.6,33,Sunny,Balanced,India,Team1
+08/03/2022,"Mar 8-12, 2022",West Indies,England,North Sound,1,51,58,2021-2023,0.34,0.52,34.5,41.2,34.8,31.4,Rain,Pace-friendly,drawn,Draw
+12/03/2022,"Mar 12-14, 2022",India,Sri Lanka,Bengaluru,1,22,7,2021-2023,0.64,0.38,45.8,36.8,28.6,33,Sunny,Balanced,India,Team1
+12/03/2022,"Mar 12-16, 2022",Pakistan,Australia,Karachi,1,15,33,2021-2023,0.42,0.72,39.1,48.5,32.5,27.3,Sunny,Balanced,drawn,Draw
+16/03/2022,"Mar 16-20, 2022",West Indies,England,Bridgetown,1,51,58,2021-2023,0.34,0.52,34.5,41.2,34.8,31.4,Sunny,Pace-friendly,drawn,Draw
+21/03/2022,"Mar 21-25, 2022",Pakistan,Australia,Lahore,1,15,34,2021-2023,0.42,0.72,39.1,48.5,32.5,27.3,Sunny,Balanced,Australia,Team2
+24/03/2022,"Mar 24-27, 2022",West Indies,England,St George's,1,52,58,2021-2023,0.34,0.52,34.5,41.2,34.8,31.4,Sunny,Pace-friendly,West Indies,Team1
+31/03/2022,"Mar 31-Apr 4, 2022",South Africa,Bangladesh,Durban,1,11,0,2021-2023,0.5,0.22,37.4,31.6,29.9,37.9,Sunny,Balanced,South Africa,Team1
+08/04/2022,"Apr 8-11, 2022",South Africa,Bangladesh,Gqeberha,1,11,0,2021-2023,0.5,0.22,37.4,31.6,29.9,37.9,Cloudy,Pace-friendly,South Africa,Team1
+15/05/2022,"May 15-19, 2022",Bangladesh,Sri Lanka,Chattogram,1,17,1,2021-2023,0.22,0.38,31.6,36.8,37.9,33,Rain,Spin-friendly,drawn,Draw
+23/05/2022,"May 23-27, 2022",Bangladesh,Sri Lanka,Mirpur,1,18,1,2021-2023,0.22,0.38,31.6,36.8,37.9,33,Sunny,Balanced,Sri Lanka,Team2
+02/06/2022,"Jun 2-5, 2022",England,New Zealand,Lord's,1,49,12,2021-2023,0.52,0.4,41.2,42.3,31.4,30.7,Cloudy,Pace-friendly,England,Team1
+10/06/2022,"Jun 10-14, 2022",England,New Zealand,Nottingham,1,50,12,2021-2023,0.52,0.4,41.2,42.3,31.4,30.7,Rain,Pace-friendly,England,Team1
+16/06/2022,"Jun 16-19, 2022",West Indies,Bangladesh,North Sound,1,13,4,2021-2023,0.34,0.22,34.5,31.6,34.8,37.9,Rain,Pace-friendly,West Indies,Team1
+23/06/2022,"Jun 23-27, 2022",England,New Zealand,Leeds,1,51,12,2021-2023,0.52,0.4,41.2,42.3,31.4,30.7,Cloudy,Pace-friendly,England,Team1
+24/06/2022,"Jun 24-27, 2022",West Indies,Bangladesh,Gros Islet,1,14,4,2021-2023,0.34,0.22,34.5,31.6,34.8,37.9,Sunny,Balanced,West Indies,Team1
+29/06/2022,"Jun 29-Jul 1, 2022",Sri Lanka,Australia,Galle,1,4,20,2021-2023,0.38,0.72,36.8,48.5,33,27.3,Rain,Spin-friendly,Australia,Team2
+01/07/2022,"Jul 1-5, 2022",England,India,Birmingham,1,31,50,2021-2023,0.52,0.64,41.2,45.8,31.4,28.6,Cloudy,Pace-friendly,England,Team1
+08/07/2022,"Jul 8-11, 2022",Sri Lanka,Australia,Galle,1,4,21,2021-2023,0.38,0.72,36.8,48.5,33,27.3,Rain,Spin-friendly,Sri Lanka,Team1
+16/07/2022,"Jul 16-20, 2022",Sri Lanka,Pakistan,Galle,1,16,21,2021-2023,0.38,0.42,36.8,39.1,33,32.5,Rain,Spin-friendly,Pakistan,Team2
+24/07/2022,"Jul 24-28, 2022",Sri Lanka,Pakistan,Galle,1,17,21,2021-2023,0.38,0.42,36.8,39.1,33,32.5,Rain,Spin-friendly,Sri Lanka,Team1
+17/08/2022,"Aug 17-19, 2022",England,South Africa,Lord's,1,64,35,2021-2023,0.52,0.5,41.2,37.4,31.4,29.9,Cloudy,Pace-friendly,South Africa,Team2
+25/08/2022,"Aug 25-27, 2022",England,South Africa,Manchester,1,65,35,2021-2023,0.52,0.5,41.2,37.4,31.4,29.9,Cloudy,Pace-friendly,England,Team1
+08/09/2022,"Sep 8-12, 2022",England,South Africa,The Oval,1,66,35,2021-2023,0.52,0.5,41.2,37.4,31.4,29.9,Cloudy,Pace-friendly,England,Team1
+30/11/2022,"Nov 30-Dec 4, 2022",Australia,West Indies,Perth,1,59,32,2021-2023,0.72,0.34,48.5,34.5,27.3,34.8,Sunny,Balanced,Australia,Team1
+01/12/2022,"Dec 1-5, 2022",Pakistan,England,Rawalpindi,1,33,63,2021-2023,0.42,0.52,39.1,41.2,32.5,31.4,Sunny,Balanced,England,Team2
+08/12/2022,"Dec 8-11, 2022",Australia,West Indies,Adelaide,1,60,32,2021-2023,0.72,0.34,48.5,34.5,27.3,34.8,Sunny,Balanced,Australia,Team1
+09/12/2022,"Dec 9-12, 2022",Pakistan,England,Multan,1,33,64,2021-2023,0.42,0.52,39.1,41.2,32.5,31.4,Sunny,Balanced,England,Team2
+14/12/2022,"Dec 14-18, 2022",Bangladesh,India,Chattogram,1,0,10,2021-2023,0.22,0.64,31.6,45.8,37.9,28.6,Rain,Spin-friendly,India,Team2
+17/12/2022,"Dec 17-20, 2022",Pakistan,England,Karachi,1,33,65,2021-2023,0.42,0.52,39.1,41.2,32.5,31.4,Sunny,Balanced,England,Team2
+17/12/2022,"Dec 17-18, 2022",Australia,South Africa,Brisbane,1,53,26,2021-2023,0.72,0.5,48.5,37.4,27.3,29.9,Sunny,Balanced,Australia,Team1
+22/12/2022,"Dec 22-25, 2022",Bangladesh,India,Mirpur,1,0,10,2021-2023,0.22,0.64,31.6,45.8,37.9,28.6,Sunny,Balanced,India,Team2
+26/12/2022,"Dec 26-30, 2022",Pakistan,New Zealand,Karachi,1,14,25,2021-2023,0.42,0.4,39.1,42.3,32.5,30.7,Sunny,Balanced,drawn,Draw
+26/12/2022,"Dec 26-29, 2022",Australia,South Africa,Melbourne,1,54,26,2021-2023,0.72,0.5,48.5,37.4,27.3,29.9,Sunny,Balanced,Australia,Team1
+02/01/2023,"Jan 2-6, 2023",Pakistan,New Zealand,Karachi,1,14,25,2021-2023,0.42,0.4,39.1,42.3,32.5,30.7,Sunny,Balanced,drawn,Draw
+04/01/2023,"Jan 4-8, 2023",Australia,South Africa,Sydney,1,54,26,2021-2023,0.72,0.5,48.5,37.4,27.3,29.9,Sunny,Balanced,drawn,Draw
+09/02/2023,"Feb 9-11, 2023",India,Australia,Nagpur,1,36,49,2021-2023,0.64,0.72,45.8,48.5,28.6,27.3,Sunny,Balanced,India,Team1
+17/02/2023,"Feb 17-19, 2023",India,Australia,Delhi,1,37,49,2021-2023,0.64,0.72,45.8,48.5,28.6,27.3,Sunny,Spin-friendly,India,Team1
+28/02/2023,"Feb 28-Mar 2, 2023",South Africa,West Indies,Centurion,1,10,15,2021-2023,0.5,0.34,37.4,34.5,29.9,34.8,Cloudy,Pace-friendly,South Africa,Team1
+01/03/2023,"Mar 1-3, 2023",India,Australia,Indore,1,37,50,2021-2023,0.64,0.72,45.8,48.5,28.6,27.3,Sunny,Balanced,Australia,Team2
+08/03/2023,"Mar 8-11, 2023",South Africa,West Indies,Johannesburg,1,11,15,2021-2023,0.5,0.34,37.4,34.5,29.9,34.8,Sunny,Balanced,South Africa,Team1
+09/03/2023,"Mar 9-13, 2023",India,Australia,Ahmedabad,1,37,50,2021-2023,0.64,0.72,45.8,48.5,28.6,27.3,Sunny,Spin-friendly,drawn,Draw
+09/03/2023,"Mar 9-13, 2023",New Zealand,Sri Lanka,Christchurch,1,17,9,2021-2023,0.4,0.38,42.3,36.8,30.7,33,Cloudy,Pace-friendly,New Zealand,Team1
+17/03/2023,"Mar 17-20, 2023",New Zealand,Sri Lanka,Wellington,1,18,9,2021-2023,0.4,0.38,42.3,36.8,30.7,33,Cloudy,Pace-friendly,New Zealand,Team1
+07/06/2023,"Jun 7-11, 2023",Australia,India,The Oval,0,51,37,2021-2023,0.72,0.64,48.5,45.8,27.3,28.6,Cloudy,Pace-friendly,Australia,Team1

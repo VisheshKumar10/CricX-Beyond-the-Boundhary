@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTC Match Prediction</title>
+    <link rel="stylesheet" href="/static/predict.css">
+    <link rel="stylesheet" href="/static/nav.css">
+    <link rel="stylesheet" href="/static/footer.css">
+    <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,fr,es,bn,ta,te,ml,ur,pa,de,it,ja,ar',
+        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      },
+      'google_translate_element'
+    );
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="static\Image\WTCicon-removebg-preview.png" alt="WTC"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/knowledge">WTC Knowledge</a></li>
+                <li><a href="/predict">Prediction</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <div id="google_translate_element" class="translate-box"></div>
+        </nav>
+    </header>
+    <main>
+<section class="page-hero">
+  <div class="hero-content">
+    <h1>🏆 WTC Match Prediction</h1>
+    <p>Use CricX AI to predict the outcome of upcoming World Test Championship matches based on data and match conditions.</p>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="predict-container">
+
+    <!-- 🔹 Horizontal container for team & condition cards -->
+    <div class="horizontal-wrapper">
+
+      <!-- 🔹 Card 1: Teams -->
+      <div class="predict-card">
+        <h2>🏏 Select Teams</h2>
+        <form id="predictForm">
+          <div class="team-select">
+            <div class="label_group">
+              <label for="team1">Team 1:</label>
+              <select id="team1" name="team1" required>
+                <option>Australia</option>
+                <option>Bangladesh</option>
+                <option>England</option>
+                <option>India</option>
+                <option>New Zealand</option>
+                <option>Sri Lanka</option>
+                <option>South Africa</option>
+                <option>West Indies</option>
+              </select>
+            </div>
+
+            <button type="button" class="swap-btn" id="swapBtn">🔄</button>
+
+            <div class="label_group">
+              <label for="team2">Team 2:</label>
+              <select id="team2" name="team2" required>
+                <option>Australia</option>
+                <option>Bangladesh</option>
+                <option>England</option>
+                <option>India</option>
+                <option>New Zealand</option>
+                <option>Sri Lanka</option>
+                <option>South Africa</option>
+                <option>West Indies</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- 🔹 Card 2: Conditions -->
+      <div class="predict-card">
+        <h2>🌦 Match Conditions</h2>
+        <div class="conditions">
+          <div class="label_group">
+            <label for="venue">Venue:</label>
+            <select id="venue" name="venue" required>
+              <option>Home</option>
+              <option>Away</option>
+            </select>
+          </div>
+
+          <div class="label_group">
+            <label for="weather">Weather:</label>
+            <select id="weather" name="weather" required>
+              <option value="0">Sunny</option>
+              <option value="1">Cloudy</option>
+              <option value="2">Rain</option>
+            </select>
+          </div>
+
+          <div class="label_group">
+            <label for="pitch">Pitch Type:</label>
+            <select id="pitch" name="pitch" required>
+              <option value="0">Balanced</option>
+              <option value="1">Pace-friendly</option>
+              <option value="2">Spin-friendly</option>
+              <option value="3">Batting-friendly</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 Predict button centered -->
+    <div class="predict-card-center-card">
+      <button type="submit" class="button">⚡ Predict Match</button>
+    </div>
+
+    <!-- 🔹 Result -->
+    <div id="resultBox" class="predict-card-result-card" style="display:none;">
+      <h2>📊 Prediction Result</h2>
+      <p id="resultTeam1"></p>
+      <p id="resultTeam2"></p>
+      <p id="predictedWinner"></p>
+    </div>
+
+  </div>
+</section>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<script>
+  document.getElementById("swapBtn").addEventListener("click", () => {
+    const t1 = document.getElementById("team1");
+    const t2 = document.getElementById("team2");
+    const temp = t1.value;
+    t1.value = t2.value;
+    t2.value = temp;
+  });
+</script>
+    </main>
+       <footer class="footer">
+  <div class="footer-container">
+
+    <!-- 🔹 Contact / Feedback -->
+    <div class="footer-section">
+      <h3>Contact & Feedback</h3>
+      <form id="feedbackForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Feedback..." required></textarea>
+        <button type="submit" class="footer-btn">Send</button>
+      </form>
+    </div>
+
+    <!-- 🔹 Policies -->
+    <div class="footer-section">
+      <h3>Policies</h3>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="footer-section"><p class="copyright">© 2025 CricX | All Rights Reserved</p></div>
+</footer>
+</body>
+</html>

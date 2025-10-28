@@ -1,0 +1,290 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+/* -------- Hero Section -------- */
+.page-hero {
+  background: linear-gradient(to right, #111, #1a1a1a);
+  padding: 60px 0;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+.page-hero h1 {
+  font-size: 2.5rem;
+  color: gold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px gold;
+}
+
+.page-hero span {
+  color: #fff;
+  text-shadow: 0 0 10px gold;
+}
+
+.page-hero p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* -------- Main Card Section -------- */
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.predict-container {
+  width: 100%;
+  max-width: 1200px;
+  display: inline;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* -------- Card Style -------- */
+.predict-card {
+  width: 97%;
+  margin-bottom: 3%;
+  background: rgba(20, 20, 20, 0.95);
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  backdrop-filter: blur(10px);
+}
+
+.predict-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.25);
+}
+
+/* -------- Card Titles -------- */
+.predict-card h2 {
+  color: gold;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  padding-bottom: 5px;
+}
+
+
+
+
+/* =============== Responsive =============== */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-image img {
+    width: 300px;
+    margin-top: 2rem;
+  }
+
+  #resultBox {
+    width: 90%;
+  }
+}
+/* ===== Result Animation ===== */
+.result-card {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+.result-card.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ===== Progress Bars ===== */
+/* ===== Animated Progress Bars ===== */
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 22px;
+  margin: 15px auto;
+  width: 90%;
+  border: 1px solid rgba(255, 215, 0, 0.5);
+}
+
+.bar {
+  height: 100%;
+  width: 0;
+  color: #111;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 8px;
+  transition: width 0.3s ease-out;
+}
+
+.bar.gold {
+  background-color: #ffdab9;
+  color: #111;
+}
+
+.bar.green {
+  background-color: #ff6749;
+  color: #fff;
+}
+/* ===== Horizontal Layout for Team & Condition Cards ===== */
+.horizontal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; /* makes it responsive */
+  margin-bottom: 30px;
+}
+
+.predict-card {
+  flex: 1;
+  min-width: 350px;
+  background: rgba(20, 20, 20, 0.95);
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+.predict-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.25);
+}
+
+.label_group {
+  margin-bottom: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #111;
+  color: white;
+  border: 1%;
+  font-size: 1rem;
+  outline: none;
+}
+
+select:hover {
+  box-shadow: 0 0 5px gold;
+  background-color: #1a1a1a;
+}
+.swap-btn {
+  background: none;
+  border: none;
+  font-size: 34px;
+  cursor: pointer;
+  color: gold;
+  transition: transform 0.3s;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  padding-left: 45%;
+}
+.swap-btn:hover {
+  transform: rotate3d(2);
+}
+
+
+/* ===== Responsive for smaller screens ===== */
+@media (max-width: 768px) {
+  .horizontal-wrapper {
+    flex-direction: column;
+  }
+}
+
+.button{
+    background-color: gold;
+    width:70%;
+    margin-left: 15%;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 40px;
+}
+.predict-card-center-card{
+    width: 60%;
+    margin-bottom: 8%;
+}
+.predict-card-result-card{
+    width: 80%;
+    flex: 1;
+  min-width: 350px;
+  background: rgba(20, 20, 20, 0.95);
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+.translate-box {
+  margin-left: 20px;
+  background-color: #111;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px;
+  width: 10%;
+}
+
+.goog-te-gadget {
+  font-family: 'Poppins', sans-serif !important;
+  color: white !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  background-color: #111 !important;
+  color: white !important;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  outline: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+} 
+body {
+  top: 0px !important;
+}
+/* 🌐 Hide Google Translate top bar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Prevent white gap on top after hiding toolbar */
+body {
+  top: 0px !important;
+}
+
+/* Hide the Google Translate popup icon in the bottom corner */
+.goog-te-balloon-frame {
+  display: none  !important;
+}
+
+/* Optional: Hide "Powered by Google Translate" small footer text */
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget span {
+  display: none !important;
+}
